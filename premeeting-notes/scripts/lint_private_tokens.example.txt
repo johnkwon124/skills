@@ -1,0 +1,7 @@
+# lint_private_tokens.txt: private tokens that must never appear in a deliverable
+# (lint rule R09 PRIVATE_TOKEN): your firm's name and abbreviations, codenames, affiliations.
+# One token per line, case-insensitive substring match, "#" starts a comment.
+# Copy this file to lint_private_tokens.txt (keep it out of git) and fill in your own.
+# Example:
+# acme-capital
+# acmecap
