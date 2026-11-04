@@ -1,0 +1,7 @@
+# lint_internal_names.txt: internal agent, tool or project names that must never
+# appear in a deliverable (lint rule R08 INTERNAL_NAME).
+# One name per line, case-insensitive substring match, "#" starts a comment.
+# Copy this file to lint_internal_names.txt (keep it out of git) and fill in your own.
+# Example:
+# my-research-agent
+# internal-qa-bot
