@@ -23,6 +23,7 @@ All examples use fictional companies. Figures in the templates are placeholders,
 ## Meetings
 
 - [`investor-meeting-notes`](./investor-meeting-notes): Converts a meeting transcript, raw notes, or just a company name into an analytical meeting note, covering four meeting types, a first startup meeting, a startup follow-up, an investor or LP meeting, and a conference session.
+- [`premeeting-notes`](./premeeting-notes): Prepares an investor-grade company brief before a meeting, with no meeting record required: verifies public primary sources, picks one canonical value per metric, and delivers English and Korean DOCX notes with matching PDFs plus inline Key Questions.
 - [`conference-report`](./conference-report): For a conference you just attended, assembles a DOCX report covering sector theme diagnosis, session deep dives with analysis, briefs for sessions missed, meeting cards for startups and investors met, and a conclusion with investment implications.
 - [`web-transcript-extractor-otter`](./web-transcript-extractor-otter): Pulls the full raw transcript of an otter.ai recording using browser automation and saves it as a .txt file in a local scratch folder.
 - [`web-transcript-extractor-soniox`](./web-transcript-extractor-soniox): Pulls the full raw transcript of a Soniox recording, from either the Smart Scribe (standard) or Translator (bilingual, live-translated) list, via the Soniox web or desktop app, and saves it as a .txt file in the local Downloads folder.
