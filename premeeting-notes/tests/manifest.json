@@ -1,0 +1,174 @@
+[
+  {
+    "file": "bad_unlike_metric.txt",
+    "mode": "pre",
+    "expect_fail": [
+      "R04"
+    ],
+    "expect_warn": [
+      "R05"
+    ]
+  },
+  {
+    "file": "good_metric_labels.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_conflicting_figures.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": [
+      "R05"
+    ]
+  },
+  {
+    "file": "good_single_figure.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_vendor_label.txt",
+    "mode": "pre",
+    "expect_fail": [
+      "R03"
+    ],
+    "expect_warn": [
+      "R16"
+    ]
+  },
+  {
+    "file": "good_vendor_free.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_self_narration.txt",
+    "mode": "pre",
+    "expect_fail": [
+      "R06"
+    ],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_first_person.txt",
+    "mode": "pre",
+    "expect_fail": [
+      "R07"
+    ],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_internal_markers.txt",
+    "mode": "pre",
+    "expect_fail": [
+      "R08"
+    ],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_private_token.txt",
+    "mode": "pre",
+    "expect_fail": [
+      "R09"
+    ],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_undisclosed_zero.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": [
+      "R12"
+    ]
+  },
+  {
+    "file": "good_undisclosed.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_obvious_absence.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": [
+      "R15"
+    ]
+  },
+  {
+    "file": "bad_meeting_attribution_pre.txt",
+    "mode": "pre",
+    "expect_fail": [
+      "R13"
+    ],
+    "expect_warn": []
+  },
+  {
+    "file": "good_no_meeting_pre.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_reporting_frame_post.txt",
+    "mode": "post",
+    "expect_fail": [
+      "R13"
+    ],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_reporting_frame_kr_post.txt",
+    "mode": "post",
+    "expect_fail": [
+      "R13"
+    ],
+    "expect_warn": []
+  },
+  {
+    "file": "good_direct_post.txt",
+    "mode": "post",
+    "expect_fail": [],
+    "expect_warn": []
+  },
+  {
+    "file": "bad_relative_date.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": [
+      "R14"
+    ]
+  },
+  {
+    "file": "good_raise_and_missing_valuation.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": []
+  },
+  {
+    "file": "good_description_of_website.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": []
+  },
+  {
+    "file": "warn_meeting_venue_pre.txt",
+    "mode": "pre",
+    "expect_fail": [],
+    "expect_warn": [
+      "R18"
+    ]
+  },
+  {
+    "file": "bad_internal_name.txt",
+    "mode": "pre",
+    "expect_fail": [
+      "R08"
+    ],
+    "expect_warn": []
+  }
+]
